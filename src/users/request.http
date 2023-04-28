@@ -1,0 +1,29 @@
+POST http://localhost:3000/auth/signout
+
+GET http://localhost:3000/auth/whoAmI
+
+GET http://localhost:3000/auth/colors
+
+GET http://localhost:3000/auth/colors/red
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "arianit@asdf.com",
+    "password": "asdsfdf" 
+}
+
+PATCH http://localhost:3000/auth/2
+Content-Type: application/json
+
+{
+    "email": "tringa@asdf.com"
+}
+
+DELETE http://localhost:3000/auth/9
+
+GET http://localhost:3000/auth/?email=asdfg@asdf.com
+
+GET http://localhost:3000/auth/1
+
